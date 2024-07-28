@@ -1,4 +1,4 @@
-import { ChartLine, FileVideo, ShieldAlert} from "lucide-react";
+import { ChartLine, FileVideo, ShieldAlert } from "lucide-react";
 import { useState } from "react";
 import { Button } from "./ui/button";
 
@@ -15,9 +15,9 @@ export default function About() {
               <h1 className="text-zinc-100 font-semibold text-3xl sm:text-6xl mb-4">
                 How does it work?
               </h1>
-          <p className="mb-8 text-xl text-zinc-500">
-                We adapt a desktop aplication to protect your content.
-                You just need to follow these simple steps:
+              <p className="mb-8 md:text-xl text-zinc-400">
+                We adapt a desktop aplication to protect your content. You just
+                need to follow these simple steps:
               </p>
 
               <div className="flex-col space-y-4">
@@ -25,8 +25,7 @@ export default function About() {
                   {
                     icon: <FileVideo />,
                     title: "Upload your content",
-                    description:
-                      "Upload your content in your app.",
+                    description: "Upload your content in your app.",
                   },
                   {
                     icon: <ShieldAlert />,

@@ -4,14 +4,14 @@ export default function Hero() {
   return (
     <div id="home" className="lg:min-h-screen">
       <div className="flex justify-center">
-        <div className="mt-[100px] mb-[100px] lg:mt-[200px]">
+        <div className="mt-[100px] lg:mb-[100px] lg:mt-[200px]">
           <h1 className="text-center lg:text-8xl md:text-5xl text-3xl sm:text-4xl font-semibold">
             <span>We protect your</span>
             <br />
             <span>multimedia content</span>
           </h1>
           <div className="px-11">
-            <h1 className="mt-11 text-black md:text-2xl text-center dark:text-zinc-500">
+            <h1 className="mt-11 md:text-2xl text-center text-zinc-400">
               <span>
                 Iron Stream is a software that protects your content from
               </span>
