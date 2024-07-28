@@ -5,7 +5,7 @@ export default function Navbar() {
         <div className="flex justify-evenly">
           <a 
           href="#"
-          className="flex text-zinc-100 font-semibold cursor-pointer hover:bg-muted p-1 px-2 rounded-md">
+          className="hidden sm:flex text-zinc-100 font-semibold cursor-pointer hover:bg-muted p-1 px-2 rounded-md">
             Iron Stream
           </a>
           <a
